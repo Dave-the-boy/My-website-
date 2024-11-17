@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for a Loan - QuickLoans</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="assets/images/logo.png" alt="QuickLoans Logo" class="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="apply.html">Apply Now</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="apply-form">
+      <h1>Loan Application</h1>
+      <p>Fill in your details to apply for a loan.</p>
+      <form id="loan-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="amount">Loan Amount (USD):</label>
+        <input type="number" id="amount" name="amount" required>
+
+        <label for="duration">Repayment Duration (Months):</label>
+        <input type="number" id="duration" name="duration" required>
+
+        <label for="income">Monthly Income (USD):</label>
+        <input type="number" id="income" name="income" required>
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 QuickLoans. All rights reserved.</p>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
